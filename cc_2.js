@@ -13,4 +13,10 @@ accelerate() {
     console.log(`${this.make} is going at ${this.speed} km/h`);
 }
 
+// Task 3: Brake Method
+brake() {
+    this.speed -= 5;
+    console.log(`${this.make} is going at ${this.speed} km/h`);
+}
+
 }
